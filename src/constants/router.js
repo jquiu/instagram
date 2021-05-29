@@ -1,5 +1,7 @@
-export const DASHBOARD = '/'
-export const PROFILE = '/p/:username'
-export const SIGN_UP = '/signup'
-export const LOGIN = '/login'
-export const NOT_FOUND = '/not'
+const DASHBOARD = '/'
+const PROFILE = '/p/:username'
+const SIGN_UP = '/signup'
+const LOGIN = '/login'
+const NOT_FOUND = '/not'
+
+export { DASHBOARD, PROFILE, SIGN_UP, LOGIN, NOT_FOUND }
